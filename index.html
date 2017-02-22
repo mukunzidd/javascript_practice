@@ -7,11 +7,123 @@
 	
 </body>
 	<script type="text/javascript">
-		 var pets = ["Tuna", "Chico", "Bobi"]
-		 console.log(pets[1]);
+		 // var pets = ["Tuna", "Chico", "Bobi"]
+		 // console.log(pets[1]);
 
-		 pets.push("Chicken");
-		 var chickenPosition = pets.length - 1
-		 console.log('Last pet is on index ' + chickenPosition + ' in the array.');
+		 // pets.push("Chicken");
+		 // var chickenPosition = pets.length - 1
+		 // console.log('Last pet is on index ' + chickenPosition + ' in the array.');
+
+		 // console.log(pets[5]);
+		 // // if I search for an index of a pet that I haven't created I get undefined.
+
+		 // var books = [
+			//  {
+			//  	title: "The Alchemist",
+			//  	author: "Paulo Coelho",
+			//  	isbn: "254169",
+			//  	pages: 345,
+			//  	yearOfPublication: "2012"
+			//  },
+			//  {
+			//  	title: "Moby-Dick",
+			//  	author: "Vedaste CyiCyi",
+			//  	isbn: "027769",
+			//  	pages: 704,
+			//  	yearOfPublication: "1981"
+			//  }
+		 // ]
+
+		 // books.push(
+			//  {
+			//  	title: "Think And Grow Rich",
+			//  	author: "Napoleon Hill",
+			//  	isbn: "024169",
+			//  	pages: 845,
+			//  	yearOfPublication: "2000"
+			//  }
+		 // 	);
+
+		 // // NASA countdown
+		 // for (var i = 10; i > 0; i-- ){
+		 // 	console.log(i);
+		 // }
+		 // console.log('BLAST OFF!!!');
+
+		 // // Iterator
+		 // var numbers = [5,23,98,234,1,0,3,177]
+		 // for (var i = 0; i < numbers.length; i++){
+		 // 	console.log(numbers[i]);
+		 // }
+
+		 // // Average
+		 // var numbers = [5,23,98,234,1,0,3,177]
+		 // 		sum = 0;
+		 // for (var i = 0; i < numbers.length; i++){
+		 // 	sum += numbers[i]
+		 // }
+		 // average = sum/(numbers.length)
+		 // console.log(average);
+
+		 // // FizzBuzz
+		 // for (var i = 1; i <= 100; i++) {
+		 // 	if (	(i % 3 == 0) && (i % 5 == 0)	) {
+		 // 		console.log('FizzBuzz');
+		 		
+		 // 	}
+		 // 	else if (i % 5 == 0) {
+		 // 		console.log('Buzz');
+		 // 	}
+		 // 	else if (i % 3 == 0) {
+		 // 		console.log('Fizz');
+		 // 	}
+		 // 	else
+			//   console.log(i);
+			// }
+
+		// Functions
+		// function doubler(numberOne, numberTwo) {
+		// 		return nubmerOne * numberTwo
+		// }
+
+		// console.log(doubler(5, 6));
+
+		// Function as a var
+		var book = {
+				 	title: "Think And Grow Rich",
+				 	author: "Napoleon Hill",
+				 	isbn: "024169",
+				 	pages: 845,
+				 	yearOfPublication: "2000",
+				 	printDetails: function() {
+				 		return "The title of this book is " + this.title + ", and its author is " + this.author + ". The ISBN is: " + this.isbn + ". It has " + this.pages + " pages, and it was published in " + this.yearOfPublication + ".";
+					}
+			 };
+	console.log(book.printDetails());
+
 	</script>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
